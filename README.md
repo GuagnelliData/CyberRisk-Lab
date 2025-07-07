@@ -29,3 +29,9 @@ This repository contains the risk assessments, reports, and visualizations I cre
 - Python for data parsing and log generation
 - Excel for risk register and cartography
 - Markdown and PDF export for reporting
+
+  ## 🔎 Risk Register
+
+You can find the initial simulated vulnerabilities and risk mitigation suggestions in:
+[`/risks/risk_register_summary.csv`](./risks/risk_register_summary.csv)
+
