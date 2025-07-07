@@ -49,5 +49,23 @@ The output is saved as a `.csv` file for further analysis and can be used to pop
 
 **Use case**: Supporting the identification of high-impact threats as part of a simulated ISMS risk analysis.
 
+## 📈 Simulated Event Logs
+
+To support blue team exercises and demonstrate event monitoring, this project includes a custom script that generates synthetic security logs.
+
+### 🐍 `scripts/log_simulator.py`
+This Python script simulates events such as:
+- Successful and failed logins
+- Configuration changes
+- Suspicious patterns like multiple failed login attempts
+- Network scan detection
+
+It outputs a file `simulated_logs.csv` (found in the `datasets/` folder) with 200 entries using randomized internal and external IPs, usernames, and timestamps.
+
+This log data can be used for:
+- Practicing incident response workflows
+- Simulating SIEM-like detection
+- Building dashboards and alerts
+
 
 
