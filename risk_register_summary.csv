@@ -1,6 +1,0 @@
-ID,Asset,CVE,Description,Impact,Likelihood,Risk Level,Mitigation
-001,QNAP NAS (SMB),CVE-2021-28799,Unauthenticated remote access to admin portal,High,High,Critical,"Enforce login, patch firmware, isolate from LAN"
-002,Internal Web Portal,CVE-2021-44228,Apache Log4j exploit allows remote code execution (RCE),High,Medium,High,"Patch library, WAF rules, code review"
-003,Mikrotik Router,CVE-2018-14847,Winbox exposed management interface with no ACLs,Medium,High,High,"ACL config, upgrade firmware, disable remote mgmt"
-004,Email Accounts,N/A,Lack of multi-factor authentication on key accounts,High,Medium,High,"Enforce 2FA, rotate credentials"
-005,Custodian Mobile App,N/A,Transmission of logs via HTTP with exposed location info,High,High,Critical,"Migrate to HTTPS, encrypt GPS data, add auth headers"
