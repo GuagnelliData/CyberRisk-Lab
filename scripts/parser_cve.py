@@ -1,3 +1,21 @@
+"""
+cve_parser.py
+Author: Carlos Joseph Guagnelli Villagrán
+
+Description:
+Connects to NIST's NVD public API to fetch CVE data for a given year.
+Filters relevant vulnerabilities by keyword and outputs a structured CSV
+with severity, attack vector, and summaries for risk analysis.
+
+Use:
+python3 cve_parser.py
+
+Dependencies:
+- requests
+- csv
+"""
+
+
 import requests
 import json
 import csv
