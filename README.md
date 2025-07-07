@@ -67,5 +67,12 @@ This log data can be used for:
 - Simulating SIEM-like detection
 - Building dashboards and alerts
 
+## 🧪 Simulated Log Dataset
+
+This project includes a synthetic dataset of 10 event logs generated using a custom script.
+These logs include successful and failed logins, config changes, and multiple failed login attempts.
+
+You can find the file here:
+[`/datasets/simulated_logs.csv`](./datasets/simulated_logs.csv)
 
 
