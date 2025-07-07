@@ -75,4 +75,9 @@ These logs include successful and failed logins, config changes, and multiple fa
 You can find the file here:
 [`/datasets/simulated_logs.csv`](./datasets/simulated_logs.csv)
 
+## 📊 Event Frequency by IP Address
+
+The chart below summarizes the number of simulated security events per IP address using log data generated in this project.
+
+![Event Summary](./cartography/ip_event_summary.png)
 
