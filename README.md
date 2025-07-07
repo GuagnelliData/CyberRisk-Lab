@@ -42,6 +42,13 @@ To visualize the simulated risks, we created a basic impact-likelihood matrix ba
 ![Risk Matrix](./cartography/risk_matrix_cartography.png) 
 
 
-##
+### 🐍 `cve_parser.py`
+
+This script connects to the NVD (National Vulnerability Database) public API and downloads CVE data for a specified year. It filters vulnerabilities by relevant cybersecurity keywords (e.g., "authentication", "network", "encryption") and extracts metadata like severity, attack vector, and description.
+
+The output is saved as a `.csv` file for further analysis and can be used to populate a risk register or generate visualizations.
+
+**Use case**: Supporting the identification of high-impact threats as part of a simulated ISMS risk analysis.
+
 
 
