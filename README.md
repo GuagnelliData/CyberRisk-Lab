@@ -33,5 +33,5 @@ This repository contains the risk assessments, reports, and visualizations I cre
   ## 🔎 Risk Register
 
 You can find the initial simulated vulnerabilities and risk mitigation suggestions in:
-[`/risks/risk_register_summary.csv`](./risks/risk_register_summary.csv)
+[`/risks/risk_register_summary.csv`]([./risks/risk_register_summary.csv])
 
