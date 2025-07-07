@@ -39,6 +39,9 @@ You can find the initial simulated vulnerabilities and risk mitigation suggestio
 
 To visualize the simulated risks, we created a basic impact-likelihood matrix based on ISO 27005 methodology:
 
-![Risk Matrix](./cartography/risk_matrix_cartography.png)
+![Risk Matrix](./cartography/risk_matrix_cartography.png) 
+
+
+##
 
 
