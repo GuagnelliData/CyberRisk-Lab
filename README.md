@@ -33,7 +33,7 @@ This repository contains the risk assessments, reports, and visualizations I cre
 ## 🔎 Risk Register
 
 You can find the initial simulated vulnerabilities and risk mitigation suggestions in:
-risks/risk_register_summary.csv
+![Risk Register](./risks/risk_register_summary.csv)
 ## 🗺️ Risk Cartography
 
 To visualize the simulated risks, we created a basic impact-likelihood matrix based on ISO 27005 methodology:
