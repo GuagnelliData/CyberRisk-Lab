@@ -1,0 +1,201 @@
+timestamp,user,ip_address,event,message
+2025-07-06 13:34:36,service_account,192.168.1.13,login_failed,Login Failed for user service_account from IP 192.168.1.13
+2025-07-07 01:44:06,j.guagnelli,45.67.89.103,login_failed,Login Failed for user j.guagnelli from IP 45.67.89.103
+2025-07-06 16:56:47,operator,192.168.1.17,login_success,Login Success for user operator from IP 192.168.1.17
+2025-07-06 13:55:45,guest,192.168.1.10,login_success,Login Success for user guest from IP 192.168.1.10
+2025-07-06 22:40:23,operator,192.168.1.17,login_success,Login Success for user operator from IP 192.168.1.17
+2025-07-06 22:58:35,operator,192.168.1.12,file_access,File Access for user operator from IP 192.168.1.12
+2025-07-06 15:48:50,operator,45.67.89.102,login_success,Login Success for user operator from IP 45.67.89.102
+2025-07-07 04:05:39,guest,192.168.1.16,login_success,Login Success for user guest from IP 192.168.1.16
+2025-07-07 00:04:24,admin,192.168.1.17,login_success,Login Success for user admin from IP 192.168.1.17
+2025-07-06 14:36:38,admin,192.168.1.18,multiple_failed_logins,Multiple Failed Logins for user admin from IP 192.168.1.18
+2025-07-06 20:31:06,admin,45.67.89.103,multiple_failed_logins,Multiple Failed Logins for user admin from IP 45.67.89.103
+2025-07-07 00:22:25,j.guagnelli,192.168.1.14,login_success,Login Success for user j.guagnelli from IP 192.168.1.14
+2025-07-07 09:27:26,operator,192.168.1.17,login_failed,Login Failed for user operator from IP 192.168.1.17
+2025-07-07 04:42:20,j.guagnelli,192.168.1.18,login_success,Login Success for user j.guagnelli from IP 192.168.1.18
+2025-07-07 05:43:19,guest,192.168.1.18,config_change,Config Change for user guest from IP 192.168.1.18
+2025-07-07 08:32:30,service_account,192.168.1.14,file_access,File Access for user service_account from IP 192.168.1.14
+2025-07-07 00:19:27,operator,45.67.89.104,login_success,Login Success for user operator from IP 45.67.89.104
+2025-07-06 20:31:24,guest,192.168.1.17,file_access,File Access for user guest from IP 192.168.1.17
+2025-07-06 14:06:20,guest,192.168.1.17,file_access,File Access for user guest from IP 192.168.1.17
+2025-07-07 12:14:32,j.guagnelli,45.67.89.108,multiple_failed_logins,Multiple Failed Logins for user j.guagnelli from IP 45.67.89.108
+2025-07-07 09:52:08,operator,45.67.89.106,file_access,File Access for user operator from IP 45.67.89.106
+2025-07-07 08:55:30,admin,192.168.1.12,login_success,Login Success for user admin from IP 192.168.1.12
+2025-07-07 09:50:58,j.guagnelli,192.168.1.12,login_success,Login Success for user j.guagnelli from IP 192.168.1.12
+2025-07-06 22:03:25,j.guagnelli,192.168.1.12,login_success,Login Success for user j.guagnelli from IP 192.168.1.12
+2025-07-06 22:57:03,j.guagnelli,192.168.1.12,file_access,File Access for user j.guagnelli from IP 192.168.1.12
+2025-07-06 21:57:04,service_account,192.168.1.13,login_success,Login Success for user service_account from IP 192.168.1.13
+2025-07-06 21:54:39,guest,45.67.89.107,login_success,Login Success for user guest from IP 45.67.89.107
+2025-07-06 20:29:10,admin,192.168.1.11,login_failed,Login Failed for user admin from IP 192.168.1.11
+2025-07-07 12:10:54,service_account,45.67.89.107,login_failed,Login Failed for user service_account from IP 45.67.89.107
+2025-07-07 07:17:16,operator,192.168.1.18,multiple_failed_logins,Multiple Failed Logins for user operator from IP 192.168.1.18
+2025-07-06 17:13:01,operator,45.67.89.102,login_failed,Login Failed for user operator from IP 45.67.89.102
+2025-07-06 18:53:45,admin,192.168.1.11,login_failed,Login Failed for user admin from IP 192.168.1.11
+2025-07-06 20:59:56,admin,192.168.1.15,login_failed,Login Failed for user admin from IP 192.168.1.15
+2025-07-06 21:36:47,guest,45.67.89.101,login_failed,Login Failed for user guest from IP 45.67.89.101
+2025-07-07 04:34:36,operator,45.67.89.102,config_change,Config Change for user operator from IP 45.67.89.102
+2025-07-06 19:17:11,guest,45.67.89.107,multiple_failed_logins,Multiple Failed Logins for user guest from IP 45.67.89.107
+2025-07-06 15:58:31,j.guagnelli,45.67.89.102,login_success,Login Success for user j.guagnelli from IP 45.67.89.102
+2025-07-07 11:04:15,admin,192.168.1.17,login_failed,Login Failed for user admin from IP 192.168.1.17
+2025-07-06 16:08:40,admin,192.168.1.10,login_failed,Login Failed for user admin from IP 192.168.1.10
+2025-07-07 05:52:29,service_account,192.168.1.18,file_access,File Access for user service_account from IP 192.168.1.18
+2025-07-06 16:41:20,admin,192.168.1.18,multiple_failed_logins,Multiple Failed Logins for user admin from IP 192.168.1.18
+2025-07-07 02:57:54,operator,45.67.89.105,login_failed,Login Failed for user operator from IP 45.67.89.105
+2025-07-06 21:47:42,admin,45.67.89.105,file_access,File Access for user admin from IP 45.67.89.105
+2025-07-07 11:05:04,service_account,192.168.1.19,file_access,File Access for user service_account from IP 192.168.1.19
+2025-07-07 03:21:11,service_account,192.168.1.15,login_failed,Login Failed for user service_account from IP 192.168.1.15
+2025-07-07 11:06:06,j.guagnelli,192.168.1.14,file_access,File Access for user j.guagnelli from IP 192.168.1.14
+2025-07-06 16:46:43,service_account,45.67.89.102,multiple_failed_logins,Multiple Failed Logins for user service_account from IP 45.67.89.102
+2025-07-07 08:54:11,guest,192.168.1.19,file_access,File Access for user guest from IP 192.168.1.19
+2025-07-06 22:00:38,admin,45.67.89.108,login_failed,Login Failed for user admin from IP 45.67.89.108
+2025-07-07 04:24:11,operator,192.168.1.15,login_failed,Login Failed for user operator from IP 192.168.1.15
+2025-07-06 23:26:13,admin,45.67.89.105,login_success,Login Success for user admin from IP 45.67.89.105
+2025-07-06 20:07:00,guest,192.168.1.13,login_failed,Login Failed for user guest from IP 192.168.1.13
+2025-07-06 14:40:49,operator,192.168.1.13,login_success,Login Success for user operator from IP 192.168.1.13
+2025-07-07 00:31:01,guest,192.168.1.16,multiple_failed_logins,Multiple Failed Logins for user guest from IP 192.168.1.16
+2025-07-07 05:10:17,guest,45.67.89.104,login_success,Login Success for user guest from IP 45.67.89.104
+2025-07-06 14:32:08,guest,45.67.89.101,login_success,Login Success for user guest from IP 45.67.89.101
+2025-07-06 16:20:33,guest,192.168.1.16,login_failed,Login Failed for user guest from IP 192.168.1.16
+2025-07-07 09:13:55,admin,192.168.1.12,login_failed,Login Failed for user admin from IP 192.168.1.12
+2025-07-06 16:09:03,operator,192.168.1.18,login_success,Login Success for user operator from IP 192.168.1.18
+2025-07-07 10:37:42,admin,192.168.1.12,login_success,Login Success for user admin from IP 192.168.1.12
+2025-07-07 06:20:30,guest,45.67.89.102,login_failed,Login Failed for user guest from IP 45.67.89.102
+2025-07-06 23:11:06,admin,45.67.89.106,login_success,Login Success for user admin from IP 45.67.89.106
+2025-07-07 07:58:51,operator,192.168.1.13,login_success,Login Success for user operator from IP 192.168.1.13
+2025-07-07 11:02:46,operator,192.168.1.18,file_access,File Access for user operator from IP 192.168.1.18
+2025-07-06 13:55:08,guest,45.67.89.100,login_failed,Login Failed for user guest from IP 45.67.89.100
+2025-07-07 03:25:02,j.guagnelli,192.168.1.13,login_success,Login Success for user j.guagnelli from IP 192.168.1.13
+2025-07-07 12:42:29,j.guagnelli,45.67.89.101,login_success,Login Success for user j.guagnelli from IP 45.67.89.101
+2025-07-07 06:59:20,guest,45.67.89.106,login_failed,Login Failed for user guest from IP 45.67.89.106
+2025-07-06 15:04:29,j.guagnelli,192.168.1.12,file_access,File Access for user j.guagnelli from IP 192.168.1.12
+2025-07-06 16:31:08,guest,192.168.1.15,login_success,Login Success for user guest from IP 192.168.1.15
+2025-07-07 02:47:54,guest,192.168.1.11,login_failed,Login Failed for user guest from IP 192.168.1.11
+2025-07-07 12:36:46,admin,192.168.1.18,login_success,Login Success for user admin from IP 192.168.1.18
+2025-07-07 11:41:07,guest,192.168.1.16,file_access,File Access for user guest from IP 192.168.1.16
+2025-07-06 13:52:03,j.guagnelli,192.168.1.12,login_success,Login Success for user j.guagnelli from IP 192.168.1.12
+2025-07-06 17:13:12,admin,192.168.1.14,login_failed,Login Failed for user admin from IP 192.168.1.14
+2025-07-06 18:26:48,j.guagnelli,45.67.89.108,login_failed,Login Failed for user j.guagnelli from IP 45.67.89.108
+2025-07-07 08:43:16,admin,45.67.89.105,login_success,Login Success for user admin from IP 45.67.89.105
+2025-07-06 23:07:24,guest,192.168.1.17,config_change,Config Change for user guest from IP 192.168.1.17
+2025-07-07 06:08:55,j.guagnelli,192.168.1.11,login_failed,Login Failed for user j.guagnelli from IP 192.168.1.11
+2025-07-06 15:34:44,guest,192.168.1.10,login_failed,Login Failed for user guest from IP 192.168.1.10
+2025-07-07 09:40:36,guest,45.67.89.105,login_failed,Login Failed for user guest from IP 45.67.89.105
+2025-07-06 20:08:50,service_account,45.67.89.105,login_failed,Login Failed for user service_account from IP 45.67.89.105
+2025-07-07 01:59:44,service_account,192.168.1.18,login_failed,Login Failed for user service_account from IP 192.168.1.18
+2025-07-06 16:23:54,service_account,45.67.89.101,login_failed,Login Failed for user service_account from IP 45.67.89.101
+2025-07-06 21:47:25,operator,192.168.1.16,login_failed,Login Failed for user operator from IP 192.168.1.16
+2025-07-07 09:35:45,service_account,45.67.89.103,login_failed,Login Failed for user service_account from IP 45.67.89.103
+2025-07-06 22:56:51,guest,192.168.1.18,login_success,Login Success for user guest from IP 192.168.1.18
+2025-07-06 14:50:19,guest,192.168.1.17,multiple_failed_logins,Multiple Failed Logins for user guest from IP 192.168.1.17
+2025-07-06 18:25:05,operator,192.168.1.11,file_access,File Access for user operator from IP 192.168.1.11
+2025-07-06 18:56:09,service_account,192.168.1.13,login_failed,Login Failed for user service_account from IP 192.168.1.13
+2025-07-07 05:33:53,j.guagnelli,45.67.89.106,login_failed,Login Failed for user j.guagnelli from IP 45.67.89.106
+2025-07-07 06:07:09,operator,192.168.1.12,file_access,File Access for user operator from IP 192.168.1.12
+2025-07-07 05:11:38,admin,45.67.89.104,login_failed,Login Failed for user admin from IP 45.67.89.104
+2025-07-07 05:34:23,operator,45.67.89.105,login_success,Login Success for user operator from IP 45.67.89.105
+2025-07-07 06:29:17,j.guagnelli,192.168.1.12,login_success,Login Success for user j.guagnelli from IP 192.168.1.12
+2025-07-07 09:24:10,operator,45.67.89.101,login_success,Login Success for user operator from IP 45.67.89.101
+2025-07-07 03:00:43,service_account,192.168.1.13,login_failed,Login Failed for user service_account from IP 192.168.1.13
+2025-07-07 12:38:29,service_account,45.67.89.109,config_change,Config Change for user service_account from IP 45.67.89.109
+2025-07-06 15:44:57,admin,192.168.1.18,login_success,Login Success for user admin from IP 192.168.1.18
+2025-07-07 08:49:06,service_account,192.168.1.17,login_failed,Login Failed for user service_account from IP 192.168.1.17
+2025-07-07 05:02:50,operator,45.67.89.107,login_failed,Login Failed for user operator from IP 45.67.89.107
+2025-07-06 15:25:24,admin,45.67.89.104,file_access,File Access for user admin from IP 45.67.89.104
+2025-07-06 16:02:18,operator,192.168.1.10,login_failed,Login Failed for user operator from IP 192.168.1.10
+2025-07-07 01:16:59,guest,45.67.89.105,login_failed,Login Failed for user guest from IP 45.67.89.105
+2025-07-06 15:45:57,service_account,192.168.1.18,login_failed,Login Failed for user service_account from IP 192.168.1.18
+2025-07-07 07:31:53,j.guagnelli,45.67.89.108,multiple_failed_logins,Multiple Failed Logins for user j.guagnelli from IP 45.67.89.108
+2025-07-06 18:46:44,admin,192.168.1.17,multiple_failed_logins,Multiple Failed Logins for user admin from IP 192.168.1.17
+2025-07-07 00:58:37,operator,45.67.89.104,config_change,Config Change for user operator from IP 45.67.89.104
+2025-07-07 00:35:52,j.guagnelli,192.168.1.11,file_access,File Access for user j.guagnelli from IP 192.168.1.11
+2025-07-07 07:30:37,admin,192.168.1.11,login_failed,Login Failed for user admin from IP 192.168.1.11
+2025-07-07 00:08:28,service_account,192.168.1.19,login_failed,Login Failed for user service_account from IP 192.168.1.19
+2025-07-07 02:28:01,guest,192.168.1.17,login_success,Login Success for user guest from IP 192.168.1.17
+2025-07-07 00:28:14,operator,192.168.1.11,multiple_failed_logins,Multiple Failed Logins for user operator from IP 192.168.1.11
+2025-07-07 06:26:27,operator,192.168.1.15,login_success,Login Success for user operator from IP 192.168.1.15
+2025-07-07 00:43:22,admin,192.168.1.10,multiple_failed_logins,Multiple Failed Logins for user admin from IP 192.168.1.10
+2025-07-06 16:18:52,j.guagnelli,45.67.89.104,login_success,Login Success for user j.guagnelli from IP 45.67.89.104
+2025-07-07 06:06:25,operator,45.67.89.105,multiple_failed_logins,Multiple Failed Logins for user operator from IP 45.67.89.105
+2025-07-07 09:06:35,operator,45.67.89.109,config_change,Config Change for user operator from IP 45.67.89.109
+2025-07-06 22:23:18,admin,45.67.89.104,config_change,Config Change for user admin from IP 45.67.89.104
+2025-07-07 00:15:55,j.guagnelli,45.67.89.104,file_access,File Access for user j.guagnelli from IP 45.67.89.104
+2025-07-06 22:12:46,admin,192.168.1.17,login_success,Login Success for user admin from IP 192.168.1.17
+2025-07-06 16:46:27,admin,45.67.89.109,file_access,File Access for user admin from IP 45.67.89.109
+2025-07-07 07:26:40,admin,45.67.89.102,config_change,Config Change for user admin from IP 45.67.89.102
+2025-07-06 20:28:26,operator,45.67.89.105,login_success,Login Success for user operator from IP 45.67.89.105
+2025-07-06 22:57:36,service_account,45.67.89.106,config_change,Config Change for user service_account from IP 45.67.89.106
+2025-07-07 09:30:29,admin,45.67.89.104,login_failed,Login Failed for user admin from IP 45.67.89.104
+2025-07-07 06:30:16,operator,192.168.1.19,login_success,Login Success for user operator from IP 192.168.1.19
+2025-07-07 10:53:33,admin,192.168.1.17,config_change,Config Change for user admin from IP 192.168.1.17
+2025-07-06 13:39:13,guest,192.168.1.11,login_success,Login Success for user guest from IP 192.168.1.11
+2025-07-07 01:21:31,guest,45.67.89.106,file_access,File Access for user guest from IP 45.67.89.106
+2025-07-06 23:37:45,operator,45.67.89.107,login_failed,Login Failed for user operator from IP 45.67.89.107
+2025-07-07 04:33:33,guest,45.67.89.107,login_success,Login Success for user guest from IP 45.67.89.107
+2025-07-06 20:47:23,guest,192.168.1.11,login_success,Login Success for user guest from IP 192.168.1.11
+2025-07-07 03:10:33,admin,192.168.1.10,login_success,Login Success for user admin from IP 192.168.1.10
+2025-07-06 19:05:15,admin,192.168.1.13,login_failed,Login Failed for user admin from IP 192.168.1.13
+2025-07-07 04:42:15,service_account,192.168.1.16,file_access,File Access for user service_account from IP 192.168.1.16
+2025-07-06 16:27:06,admin,45.67.89.107,login_failed,Login Failed for user admin from IP 45.67.89.107
+2025-07-06 23:45:05,admin,45.67.89.104,login_failed,Login Failed for user admin from IP 45.67.89.104
+2025-07-06 20:39:07,j.guagnelli,45.67.89.106,login_failed,Login Failed for user j.guagnelli from IP 45.67.89.106
+2025-07-07 10:48:17,j.guagnelli,192.168.1.14,file_access,File Access for user j.guagnelli from IP 192.168.1.14
+2025-07-07 02:49:26,admin,45.67.89.101,login_failed,Login Failed for user admin from IP 45.67.89.101
+2025-07-06 22:06:02,service_account,192.168.1.15,login_failed,Login Failed for user service_account from IP 192.168.1.15
+2025-07-07 11:07:16,admin,45.67.89.102,file_access,File Access for user admin from IP 45.67.89.102
+2025-07-06 19:17:27,admin,45.67.89.101,network_scan_detected,Network Scan Detected for user admin from IP 45.67.89.101
+2025-07-07 03:41:11,admin,45.67.89.107,login_success,Login Success for user admin from IP 45.67.89.107
+2025-07-07 01:07:19,service_account,192.168.1.14,login_failed,Login Failed for user service_account from IP 192.168.1.14
+2025-07-06 21:17:14,service_account,45.67.89.105,login_failed,Login Failed for user service_account from IP 45.67.89.105
+2025-07-06 15:09:12,guest,45.67.89.108,login_success,Login Success for user guest from IP 45.67.89.108
+2025-07-06 18:11:45,operator,45.67.89.109,file_access,File Access for user operator from IP 45.67.89.109
+2025-07-06 14:22:11,operator,45.67.89.102,login_success,Login Success for user operator from IP 45.67.89.102
+2025-07-07 02:41:24,service_account,45.67.89.105,login_failed,Login Failed for user service_account from IP 45.67.89.105
+2025-07-07 01:06:39,admin,192.168.1.11,login_failed,Login Failed for user admin from IP 192.168.1.11
+2025-07-07 00:29:01,guest,192.168.1.14,login_success,Login Success for user guest from IP 192.168.1.14
+2025-07-06 21:09:15,guest,192.168.1.14,login_success,Login Success for user guest from IP 192.168.1.14
+2025-07-06 23:06:22,guest,45.67.89.105,multiple_failed_logins,Multiple Failed Logins for user guest from IP 45.67.89.105
+2025-07-07 06:26:29,admin,192.168.1.19,login_success,Login Success for user admin from IP 192.168.1.19
+2025-07-07 09:07:28,admin,192.168.1.14,login_success,Login Success for user admin from IP 192.168.1.14
+2025-07-06 19:40:39,guest,45.67.89.109,file_access,File Access for user guest from IP 45.67.89.109
+2025-07-06 20:58:39,service_account,192.168.1.18,login_success,Login Success for user service_account from IP 192.168.1.18
+2025-07-07 03:06:01,j.guagnelli,192.168.1.18,file_access,File Access for user j.guagnelli from IP 192.168.1.18
+2025-07-06 21:35:23,operator,192.168.1.16,file_access,File Access for user operator from IP 192.168.1.16
+2025-07-06 23:16:21,operator,45.67.89.105,login_failed,Login Failed for user operator from IP 45.67.89.105
+2025-07-07 09:18:33,j.guagnelli,45.67.89.100,login_failed,Login Failed for user j.guagnelli from IP 45.67.89.100
+2025-07-06 14:29:50,service_account,192.168.1.15,login_failed,Login Failed for user service_account from IP 192.168.1.15
+2025-07-07 06:51:27,guest,45.67.89.106,login_failed,Login Failed for user guest from IP 45.67.89.106
+2025-07-06 15:07:52,j.guagnelli,45.67.89.104,file_access,File Access for user j.guagnelli from IP 45.67.89.104
+2025-07-06 16:01:17,j.guagnelli,192.168.1.17,multiple_failed_logins,Multiple Failed Logins for user j.guagnelli from IP 192.168.1.17
+2025-07-07 11:08:12,operator,192.168.1.13,login_failed,Login Failed for user operator from IP 192.168.1.13
+2025-07-06 13:42:29,admin,45.67.89.104,file_access,File Access for user admin from IP 45.67.89.104
+2025-07-06 18:30:54,admin,45.67.89.109,file_access,File Access for user admin from IP 45.67.89.109
+2025-07-06 20:37:28,service_account,45.67.89.105,login_success,Login Success for user service_account from IP 45.67.89.105
+2025-07-07 11:08:15,admin,45.67.89.103,login_failed,Login Failed for user admin from IP 45.67.89.103
+2025-07-06 15:18:00,guest,45.67.89.108,file_access,File Access for user guest from IP 45.67.89.108
+2025-07-07 07:24:23,service_account,45.67.89.107,file_access,File Access for user service_account from IP 45.67.89.107
+2025-07-06 16:47:20,service_account,192.168.1.10,login_failed,Login Failed for user service_account from IP 192.168.1.10
+2025-07-07 03:00:53,guest,192.168.1.11,login_failed,Login Failed for user guest from IP 192.168.1.11
+2025-07-06 14:34:26,service_account,45.67.89.109,login_success,Login Success for user service_account from IP 45.67.89.109
+2025-07-07 01:22:47,admin,45.67.89.107,config_change,Config Change for user admin from IP 45.67.89.107
+2025-07-06 23:32:25,operator,45.67.89.105,login_success,Login Success for user operator from IP 45.67.89.105
+2025-07-06 22:39:53,guest,192.168.1.11,file_access,File Access for user guest from IP 192.168.1.11
+2025-07-07 12:00:36,service_account,192.168.1.13,multiple_failed_logins,Multiple Failed Logins for user service_account from IP 192.168.1.13
+2025-07-06 20:53:33,admin,45.67.89.102,login_failed,Login Failed for user admin from IP 45.67.89.102
+2025-07-07 06:17:36,operator,192.168.1.19,login_success,Login Success for user operator from IP 192.168.1.19
+2025-07-07 04:49:30,admin,192.168.1.18,file_access,File Access for user admin from IP 192.168.1.18
+2025-07-07 10:07:10,guest,45.67.89.105,file_access,File Access for user guest from IP 45.67.89.105
+2025-07-07 05:16:49,operator,192.168.1.15,login_success,Login Success for user operator from IP 192.168.1.15
+2025-07-07 05:20:58,service_account,192.168.1.11,config_change,Config Change for user service_account from IP 192.168.1.11
+2025-07-06 13:50:26,admin,192.168.1.17,login_failed,Login Failed for user admin from IP 192.168.1.17
+2025-07-07 10:30:59,guest,192.168.1.19,login_success,Login Success for user guest from IP 192.168.1.19
+2025-07-07 08:18:39,operator,45.67.89.104,login_failed,Login Failed for user operator from IP 45.67.89.104
+2025-07-07 05:57:17,guest,45.67.89.107,login_failed,Login Failed for user guest from IP 45.67.89.107
+2025-07-06 19:14:05,operator,45.67.89.105,file_access,File Access for user operator from IP 45.67.89.105
+2025-07-07 06:01:20,operator,192.168.1.14,login_success,Login Success for user operator from IP 192.168.1.14
+2025-07-07 02:37:32,admin,45.67.89.103,login_failed,Login Failed for user admin from IP 45.67.89.103
+2025-07-07 09:19:03,admin,45.67.89.103,file_access,File Access for user admin from IP 45.67.89.103
+2025-07-06 21:29:33,admin,192.168.1.19,login_failed,Login Failed for user admin from IP 192.168.1.19
+2025-07-07 06:41:19,guest,45.67.89.108,login_failed,Login Failed for user guest from IP 45.67.89.108
+2025-07-06 14:54:00,guest,192.168.1.19,login_failed,Login Failed for user guest from IP 192.168.1.19
+2025-07-06 16:30:10,operator,45.67.89.105,login_failed,Login Failed for user operator from IP 45.67.89.105
+2025-07-07 08:19:45,j.guagnelli,192.168.1.14,login_failed,Login Failed for user j.guagnelli from IP 192.168.1.14
