@@ -1,3 +1,23 @@
+"""
+log_simulator.py
+Author: Carlos Joseph Guagnelli Villagrán
+
+Description:
+This script generates synthetic log data to simulate real-world security events.
+It creates randomized entries for login attempts (successful and failed), configuration changes,
+file access events, and potential threat indicators like multiple failed logins or network scans.
+
+The goal is to simulate a light version of what a SIEM or log management system might collect,
+useful for practicing incident detection, correlation, and response.
+
+Output:
+- CSV file named 'simulated_logs.csv' with timestamped events.
+
+Use:
+$ python3 log_simulator.py
+"""
+
+
 import csv
 import random
 from datetime import datetime, timedelta
