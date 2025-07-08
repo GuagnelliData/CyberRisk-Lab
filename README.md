@@ -81,3 +81,8 @@ The chart below summarizes the number of simulated security events per IP addres
 
 ![Event Summary](./cartography/ip_event_summary.png)
 
+## 📄 Incident Reports
+
+- [Unauthorized Access Attempt – July 2025](./reports/incident_report.md)
+
+
