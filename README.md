@@ -85,4 +85,11 @@ The chart below summarizes the number of simulated security events per IP addres
 
 - [Unauthorized Access Attempt – July 2025](./reports/incident_report.md)
 
+### 📊 Event Count by Type
+
+This chart shows the frequency of each event type observed in the simulated logs.
+
+![Event Type Summary](./cartography/event_type_summary.png)
+
+
 
