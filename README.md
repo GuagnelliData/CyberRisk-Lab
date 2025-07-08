@@ -103,7 +103,26 @@ A sample report based on simulated log data, documenting detection, impact, resp
 
 This repository uses public data and simulated environments for learning and demonstration purposes. No real system or organization is exposed.
 
+---
+
 Created and maintained by [Carlos Joseph Guagnelli Villagrán](https://github.com/GuagnelliData) — aspiring Blue Teamer and cybersecurity consultant.
+
+This project is not meant to stay static.
+
+### 🚀 Roadmap
+
+Over time, this repository will evolve as a **living archive of practical security techniques** that I apply, simulate, or recommend for growing companies — especially in Mexico and Latin America.
+
+The goal is to help businesses:
+- Understand the digital risks they face
+- Adapt quickly with practical solutions
+- Develop security culture before they become targets
+
+If you're a small or mid-sized company and want to protect your digital assets, this project shows how I think, how I work — and how I can help.
+
+> 🛡️ *Cybersecurity should be proactive, not reactive.*
+
+
 
 ---
 
