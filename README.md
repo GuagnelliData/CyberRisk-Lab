@@ -1,95 +1,110 @@
+# 🛡️ CyberRisk-Lab
 
-# CyberRisk-Lab
-
-## 🧠 About this project
+## 🧠 About this Project
 
 > “Man doesn't choose to evolve — evolution arrives, and we must find her.”
 
-Mexico is a growing country. Its companies are growing too — some of them faster than they can adapt. And sometimes, in that rush, they forget basic digital hygiene. For example, using WhatsApp for critical communication without two-step verification is already a vulnerability for a modern Mexican company.
+Mexico is a growing country. Its companies are expanding fast — often faster than their digital maturity. In this rush, many overlook basic cybersecurity practices. For example, using WhatsApp for operational coordination without two-factor authentication is already a vulnerability.
 
-From my background in mechanical work and physical security, I saw that people often protect their assets with firearms — like in the good old days. But no gun can defend against cyberattacks. Even security companies, like the one I used to work for, had hidden digital vulnerabilities.
+Coming from a background in mechanical work and physical security, I’ve seen how people protect assets with firearms — like in the good old days. But no gun can defend against a phishing campaign, exposed ports, or poor password hygiene. Even the security company I worked with had serious digital gaps.
 
-As I began my journey in cybersecurity, I asked for permission to apply some basic security measures (listed in this repository). My intention was to protect the company and, at the same time, learn how to apply real-world security strategies.
+As I transitioned into cybersecurity, I requested permission to implement basic protective measures. This allowed me to apply my growing knowledge in a real-world setting while contributing to the safety of an outdated infrastructure.
 
-This repository contains the risk assessments, reports, and visualizations I created based on public datasets and best practices. It is built entirely for educational and professional purposes — and does not include any private or sensitive data.
+This repository is the result of that journey — a simulated, anonymized, and professional cybersecurity lab.
+
+---
 
 ## 🎯 Objectives
 
-- Simulate a cybersecurity audit using real-world standards and open data.
-- Apply risk management techniques to legacy-style infrastructure.
-- Practice blue team methodologies: detection, prevention, reporting.
-- Create professional-grade documentation for interview and portfolio use.
+- Simulate a cybersecurity audit using public data and open standards.
+- Apply real-world risk assessment and reporting methodologies.
+- Practice Blue Team techniques: detection, prevention, and documentation.
+- Create a technical portfolio to demonstrate my professional skills.
 
-## 🛠 Tools & Methodologies
+---
 
-- MITRE ATT&CK Framework
-- NIST NVD CVE Feeds
-- CICIDS 2017 Intrusion Detection Dataset
-- Sysmon and Windows logs (SwiftOnSecurity config)
-- Python for data parsing and log generation
-- Excel for risk register and cartography
-- Markdown and PDF export for reporting
+## 🛠️ Tools & Methodologies
 
-## 🔎 Risk Register
+- **MITRE ATT&CK Framework**
+- **ISO/IEC 27005** risk analysis principles
+- **NIST NVD CVE Feeds**
+- **CICIDS 2017** intrusion detection dataset (for enrichment)
+- **Python** for log generation and data parsing
+- **Excel** for risk registers and impact maps
+- **Markdown** for professional reporting
 
-You can find the initial simulated vulnerabilities and risk mitigation suggestions in:
-[Risk Register](./risks/risk_register_summary.csv)
-## 🗺️ Risk Cartography
+---
 
-To visualize the simulated risks, we created a basic impact-likelihood matrix based on ISO 27005 methodology:
+## 🔎 Risk Management
 
-![Risk Matrix](./cartography/risk_matrix_cartography.png) 
+### ✅ [Risk Register](./risks/risk_register_summary.csv)
 
+A list of simulated vulnerabilities with descriptions, impact levels, and suggested mitigations — aligned to basic threat modeling practices.
 
-### 🐍 `cve_parser.py`
+### 🗺️ Risk Cartography
 
-This script connects to the NVD (National Vulnerability Database) public API and downloads CVE data for a specified year. It filters vulnerabilities by relevant cybersecurity keywords (e.g., "authentication", "network", "encryption") and extracts metadata like severity, attack vector, and description.
+A visual representation of risks based on ISO 27005: likelihood × impact matrix.
 
-The output is saved as a `.csv` file for further analysis and can be used to populate a risk register or generate visualizations.
+![Risk Matrix](./cartography/risk_matrix_cartography.png)
 
-**Use case**: Supporting the identification of high-impact threats as part of a simulated ISMS risk analysis.
+---
+
+## 🐍 CVE Parsing Tool
+
+### [`scripts/cve_parser.py`](./scripts/cve_parser.py)
+
+This script connects to the NIST NVD API and fetches CVE data for a specific year. It filters vulnerabilities by relevance (e.g., authentication, network, encryption) and exports them for analysis.
+
+- 📥 Output: `cves_filtered_2023.csv`
+- 🧠 Use: Populate risk registers or threat intel dashboards
+
+---
 
 ## 📈 Simulated Event Logs
 
-To support blue team exercises and demonstrate event monitoring, this project includes a custom script that generates synthetic security logs.
+### [`scripts/log_simulator.py`](./scripts/log_simulator.py)
 
-### 🐍 `scripts/log_simulator.py`
-This Python script simulates events such as:
+A Python script to generate synthetic log events, including:
+
 - Successful and failed logins
+- Multiple failed attempts (brute-force patterns)
 - Configuration changes
-- Suspicious patterns like multiple failed login attempts
-- Network scan detection
+- File access and remote activity
 
-It outputs a file `simulated_logs.csv` (found in the `datasets/` folder) with 200 entries using randomized internal and external IPs, usernames, and timestamps.
+🗃️ Output file: [`/datasets/simulated_logs.csv`](./datasets/simulated_logs.csv)
 
-This log data can be used for:
-- Practicing incident response workflows
-- Simulating SIEM-like detection
-- Building dashboards and alerts
+---
 
-## 🧪 Simulated Log Dataset
+## 📊 Visualizations
 
-This project includes a synthetic dataset of 10 event logs generated using a custom script.
-These logs include successful and failed logins, config changes, and multiple failed login attempts.
+### 🔹 Event Frequency by IP
 
-You can find the file here:
-[`/datasets/simulated_logs.csv`](./datasets/simulated_logs.csv)
+Shows which IP addresses generated the most events (internal and external).
 
-## 📊 Event Frequency by IP Address
+![IP Event Summary](./cartography/ip_event_summary.png)
 
-The chart below summarizes the number of simulated security events per IP address using log data generated in this project.
+### 🔸 Event Types Summary
 
-![Event Summary](./cartography/ip_event_summary.png)
-
-## 📄 Incident Reports
-
-- [Unauthorized Access Attempt – July 2025](./reports/incident_report.md)
-
-### 📊 Event Count by Type
-
-This chart shows the frequency of each event type observed in the simulated logs.
+Breakdown of total events by category (login_failed, config_change, etc.).
 
 ![Event Type Summary](./cartography/event_type_summary.png)
 
+---
+
+## 📝 Incident Reports
+
+- [🔎 Unauthorized Access Attempt – July 2025](./reports/incident_report.md)
+
+A sample report based on simulated log data, documenting detection, impact, response, and recommendations.
+
+---
+
+## 🧾 Notes
+
+This repository uses public data and simulated environments for learning and demonstration purposes. No real system or organization is exposed.
+
+Created and maintained by [Carlos Joseph Guagnelli Villagrán](https://github.com/GuagnelliData) — aspiring Blue Teamer and cybersecurity consultant.
+
+---
 
 
